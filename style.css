@@ -414,6 +414,8 @@ BANNER DESTINOS
     gap:12px;
 
     margin-top:25px;
+    flex-wrap:wrap;
+    margin-top:20px;
     margin-bottom:30px;
 }
 
@@ -424,7 +426,11 @@ BANNER DESTINOS
     border:1px solid #ddd;
     background:white;
 
-    border-radius:12px;
+
+    border:1px solid #ddd;
+    background:white;
+
+    padding:30px 70px;
 
     display:flex;
     align-items:center;
@@ -433,7 +439,6 @@ BANNER DESTINOS
     gap:8px;
 
     cursor:pointer;
-    transition:.3s;
 }
 
 .filtro-btn:hover{
